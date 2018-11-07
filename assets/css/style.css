@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  margin: 0;
 }
 
 * {
@@ -36,6 +37,11 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 h1 {
@@ -215,3 +221,88 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+  @media screen and (max-width: 980px) {
+  
+    #masthead {
+      padding: 0 5%;
+    }
+
+    #main-container {
+      width: 60%;
+      margin-left: 5%;
+    }
+
+    .work {
+      width: 45%;
+    }  
+
+  }
+
+  @media screen and (max-width: 768px) {
+    
+
+    #masthead {
+      padding: 0 5%;
+    }
+
+    #main-container {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    .work {
+      width: 45%;
+    }  
+
+ 
+
+  @media screen and (max-width: 640px) {
+     
+    header {
+      position: static;
+    }
+    
+    #masthead {
+      position: relative;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav {
+      float: none;
+      text-align: center;
+      margin: 0;
+    }
+
+    nav a {
+      padding: 1em;
+      margin: 0;
+    }
+
+    #logo {
+      width: 100%;
+    }
+
+    #main-container {
+      padding-top: 0;
+    }
+
+    .main-section {
+      margin: 2em auto;
+      padding-top: 0;
+    }
+
+    .auth-image {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+
+    .work {
+      width: 100%;
+    }  
+    
+    
+  }
